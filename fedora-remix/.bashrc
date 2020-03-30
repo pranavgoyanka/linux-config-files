@@ -1,6 +1,9 @@
 
 # .bashrc
 
+# Add git support
+source /usr/share/git-core/contrib/completion/git-prompt.sh
+
 # Source global definitions
 if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
